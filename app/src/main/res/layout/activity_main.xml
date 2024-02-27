@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:autofillHints="Name"
+        android:inputType="textPersonName"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/email"
+        android:autofillHints="Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="Password"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"
+        />
+    <EditText
+        android:id="@+id/uniqueId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/uniqueid"
+        android:inputType="textPassword"
+        android:autofillHints="Enter Unique Id"
+        android:padding="12dp"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:minHeight="48dp"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/don_t_have_an_account_sign_up"
+        android:textColor="#757575"
+       />
+
+</LinearLayout>

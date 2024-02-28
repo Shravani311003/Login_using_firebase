@@ -6,4 +6,5 @@
     <string name="don_t_have_an_account_sign_up">Don\'t have an account? Sign Up</string>
     <string name="uniqueid">UniqueId</string>
     <string name="name">Name</string>
+    <string name="sign_up">Sign Up</string>
 </resources>
